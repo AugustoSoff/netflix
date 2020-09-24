@@ -1,0 +1,32 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+.container a:hover{
+    color: #fff;
+}
